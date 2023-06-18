@@ -22,7 +22,7 @@ function App() {
 
         <small>
           <a
-            href="https://github.com/alexpfuentes/Alex-Weather-App"
+            href="https://github.com/alexpfuentes/react-weather-app"
             target="_blank"
           >
             Open-source code
