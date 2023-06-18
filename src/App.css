@@ -50,11 +50,6 @@ li:first-letter {
   font-size: large;
 }
 
-.big-icon {
-  width: 100px;
-  margin-left: 15px;
-}
-
 .weather-temperature strong {
   font-size: 65px;
   font-weight: 500;
@@ -71,6 +66,8 @@ li:first-letter {
 }
 
 .weather-forecast {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
   margin-top: 30px;
   text-align: center;
   color: #000;
@@ -82,11 +79,10 @@ li:first-letter {
 
 .weather-forecast-date {
   font-size: 16px;
-  opacity: 0.5;
 }
 
 .weather-forecast-temperatures {
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .weather-forecast-temperature-min {
@@ -96,3 +92,15 @@ li:first-letter {
 .small-icon {
   width: 50px;
 }
+
+.grid-two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-three-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+

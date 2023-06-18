@@ -23,7 +23,7 @@ function App() {
         <small>
           <a
             href="https://github.com/alexpfuentes/react-weather-app"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             Open-source code
           </a>

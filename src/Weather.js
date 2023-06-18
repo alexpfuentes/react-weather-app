@@ -1,35 +1,48 @@
 import React from "react";
+import ReactAnimatedWeather from "react-animated-weather";
 
 export default function Weather() {
   return (
-    <div>
-      <div class="overview">
-        <h1 id="city">Kyle</h1>
-        <ul>
-          <li>
-            last updated:
-            <span id="date">05/29/2023</span>
-          </li>
-          <li class="description" id="description">
-            Cloudy
-          </li>
-        </ul>
-      </div>
+    <div> 
 
-      <div class="row">
-        <div class="col-6">
-          <img src="" alt="" id="icon" class="big-icon" />
-        </div>
+      <div class="grid-two-columns">
 
-        <div class="col-6">
-          <div class="d-flex weather-temperature">
-            <div>
-              <strong id="temperature">78</strong>
-              <span class="unit">°F</span>
-            </div>
+        <section>
+          <div class="overview">
+            <h1 id="city">Kyle</h1>
+            <ul>
+              <li>
+                last updated:
+                <span id="date">05/29/2023</span>
+              </li>
+              <li class="description" id="description">
+                Cloudy
+              </li>
+            </ul>
           </div>
-        </div>
+
+          <div>
+            <div class="weather-temperature">
+              <div>
+                  <strong id="temperature">78</strong>
+                  <span class="unit">°F</span>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <div>
+          <ReactAnimatedWeather
+            icon="CLEAR_DAY"
+            color="goldenrod"
+            size={150}
+            animate={true}
+          />
+          </div>
+        </section>
       </div>
+
     </div>
   );
 }

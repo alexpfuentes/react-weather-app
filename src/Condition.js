@@ -2,26 +2,24 @@ import React from "react";
 
 export default function Condition() {
   return (
-    <div class="condition">
-      <div class="container text-center">
-        <div class="row align-items-start">
-          <div class="col">
+    <div class="condition grid-three-columns">
+
+          <div>
             🌡️ Feels Like:
             <span id="feels-like"></span>°
           </div>
 
-          <div class="col">
+          <div>
             💧Humidity:
             <span id="humidity"></span>%
           </div>
 
-          <div class="col">
+          <div>
             🍃Wind:
             <span id="wind"></span>
             m/H
           </div>
-        </div>
-      </div>
+
     </div>
   );
 }
