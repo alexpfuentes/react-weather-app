@@ -13,9 +13,7 @@ body {
 }
 
 .weather-app {
-  background-color: rgb(243, 249, 255);
-  max-width: 700px;
-  margin: 30px auto;
+  background-color: white;
   padding: 20px;
   border: 2px solid #dadde1;
   border-radius: 20px;
@@ -23,7 +21,7 @@ body {
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 28px;
   margin-bottom: 0;
@@ -42,16 +40,12 @@ li {
   line-height: 30px;
 }
 
-li:first-letter {
-  text-transform: capitalize;
-}
-
 .description {
   font-size: large;
 }
 
 .weather-temperature strong {
-  font-size: 65px;
+  font-size: 75px;
   font-weight: 500;
 }
 
@@ -60,7 +54,10 @@ li:first-letter {
   top: -34px;
 }
 
-.condition {
+.condition {  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   margin-top: 15px;
   color: #878787;
 }
@@ -77,11 +74,11 @@ li:first-letter {
   border-radius: 20px;
 }
 
-.weather-forecast-date {
-  font-size: 16px;
+.weather-forecast-day {
+  font-size: 14px;
 }
 
-.weather-forecast-temperatures {
+.weather-forecast-temperature-max {
   font-size: 16px;
 }
 
@@ -89,8 +86,8 @@ li:first-letter {
   opacity: 0.5;
 }
 
-.small-icon {
-  width: 50px;
+.icon {
+  margin-left: 30px;
 }
 
 .grid-two-columns {
@@ -98,9 +95,5 @@ li:first-letter {
   grid-template-columns: 1fr 1fr;
 }
 
-.grid-three-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
 
 

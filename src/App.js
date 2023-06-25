@@ -1,6 +1,5 @@
 import Search from "./Search";
 import Weather from "./Weather";
-import Condition from "./Condition";
 import Forecast from "./Forecast";
 
 import './App.css';
@@ -14,13 +13,12 @@ function App() {
         <div class="weather-app">
           <div>
             <Search />
-            <Weather />
-            <Condition />
+            <Weather defaultCity="Austin" />
             <Forecast />
           </div>
         </div>
 
-        <small>
+        <footer className="mt-3">
           <a
             href="https://github.com/alexpfuentes/react-weather-app"
             target="_blank" rel="noreferrer"
@@ -28,7 +26,7 @@ function App() {
             Open-source code
           </a>
           , by Alex Fuentes
-        </small>
+        </footer>
       </div>
     </div>
   </div>
