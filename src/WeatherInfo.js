@@ -1,7 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
-import ReactAnimatedWeather from "react-animated-weather";
-
+import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherInfo(props) {
 return (
@@ -32,13 +31,8 @@ return (
     </section>
 
     <section>
-      <div className="icon">
-      <ReactAnimatedWeather
-        icon="CLEAR_DAY"
-        color="goldenrod"
-        size={150}
-        animate={true}
-      />
+      <div className="icon mt-3">
+      <WeatherIcon code={props.data.icon} />
       </div>
     </section>
 
