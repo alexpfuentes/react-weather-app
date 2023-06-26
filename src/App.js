@@ -1,4 +1,4 @@
-import Search from "./Search";
+import Search from "./WeatherInfo";
 import Weather from "./Weather";
 import Forecast from "./Forecast";
 
@@ -12,9 +12,7 @@ function App() {
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <div>
-            <Search />
             <Weather defaultCity="Austin" />
-            <Forecast />
           </div>
         </div>
 
