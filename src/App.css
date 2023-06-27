@@ -44,7 +44,7 @@ li {
   font-size: large;
 }
 
-.weather-temperature strong {
+.weather-temperature .temperature {
   font-size: 75px;
   font-weight: 500;
 }
