@@ -25,7 +25,7 @@ return (
 
     <section>
       <div className="icon mt-3">
-      <WeatherIcon code={props.data.icon} />
+      <WeatherIcon code={props.data.icon} size={150} />
       </div>
     </section>
 
