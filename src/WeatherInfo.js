@@ -20,7 +20,7 @@ return (
           </li>
         </ul>
       </div>
-        <WeatherTemperature celsius={props.data.temperature}/>
+        <WeatherTemperature fahrenheit={props.data.temperature}/>
     </section>
 
     <section>
