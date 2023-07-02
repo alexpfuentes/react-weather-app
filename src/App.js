@@ -18,7 +18,7 @@ function App() {
         <footer className="mt-3">
           <a
             href="https://github.com/alexpfuentes/react-weather-app"
-            target="_blank" rel="noreferrer"
+            target="_blank" rel="noopener noreferrer"
           >
             Open-source code
           </a>
