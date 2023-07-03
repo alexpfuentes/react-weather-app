@@ -24,8 +24,11 @@ return (
     </section>
 
     <section>
-      <div className="icon mt-3">
-      <WeatherIcon code={props.data.icon} size={150} />
+      <div className="mt-3">
+        <img 
+          src={props.data.iconUrl}
+          alt={props.data.description}
+          className="icon" />
       </div>
     </section>
 

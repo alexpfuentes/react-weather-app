@@ -16,13 +16,23 @@ function App() {
         </div>
 
         <footer className="mt-3">
+          This project was coded by Alex Fuentes with {" "}
+          
+          <a 
+            href="https://www.shecodes.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            SheCodes
+          </a>
+          , and it is {" "}
           <a
             href="https://github.com/alexpfuentes/react-weather-app"
             target="_blank" rel="noopener noreferrer"
           >
-            Open-source code
+            open-sourced
           </a>
-          , by Alex Fuentes
+          {" "}on GitHub
         </footer>
       </div>
     </div>
