@@ -3,7 +3,6 @@ import Weather from "./Weather";
 
 import './App.css';
 
-
 function App() {
   return (
     <div className="App">
@@ -17,7 +16,6 @@ function App() {
 
         <footer className="mt-3">
           This project was coded by Alex Fuentes with {" "}
-          
           <a 
             href="https://www.shecodes.io/"
             target="_blank"

@@ -22,6 +22,7 @@ export default function WeatherIcon(props) {
     "snow-night": "SNOW",
     "mist-night": "SLEET",
   }
+  
   return (
     <ReactAnimatedWeather
       icon={codeMapping[props.code]}
